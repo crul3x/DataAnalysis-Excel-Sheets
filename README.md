@@ -83,7 +83,7 @@ Summary statistics calculated across 5 dimensions: overall KPIs, revenue by regi
 
 ![Analysis and Charts](screenshots/charts.png.png)
 
-### 4. Interactive Dashboard 
+### 4. Interactive Dashboard : [View Interactive Dashboard](https://crul3x.github.io/Data-Analysis-Project/)
 A standalone interactive dashboard built with AI assistance. Filterable by Region and Quarter, with live-updating KPI cards and 6 charts.
 
 ![Dashboard1](screenshots/dashboard1.png.png)
