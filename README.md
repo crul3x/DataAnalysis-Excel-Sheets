@@ -90,7 +90,7 @@ A standalone interactive dashboard built with AI assistance. Filterable by Regio
 ## How to View the Dashboard
 
 **Option 1 - Live link (GitHub Pages)**
-👉 [https://crul3x.github.io/sales-performance-analysis](https://crul3x.github.io/sales-performance-analysis)
+[https://crul3x.github.io/DataAnalysis-Excel-Sheets/](https://crul3x.github.io/DataAnalysis-Excel-Sheets/)
 
 ---
 
