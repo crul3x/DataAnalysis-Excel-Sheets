@@ -111,6 +111,7 @@ This project demonstrates a complete data analytics workflow from raw messy data
 Feel free to contact me via:
 
 Gmail : yash2601sharma2@gmail.com
+
 Linkedin : [https://www.linkedin.com/in/yash-sharma](https://www.linkedin.com/in/yash-sharma-841835278/)
 
 ---
