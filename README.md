@@ -56,14 +56,20 @@ The goal was to simulate a realistic analyst workflow - from receiving a raw, me
 ### 1. Data Cleaning
 All cleaning decisions were documented in the **Data Cleaning Log** sheet before being applied. Key decisions:
 
+![Data Cleaning Log](screenshots/cleaninglog.png.png)
+
 - **Casing** - standardized Region, Category, and Customer Segment using `PROPER(TRIM())`
 - **Dates** - unified 4 formats into `DD/MM/YYYY` using `DATEVALUE()` with a helper column
 - **Missing Quantity** - filled with median per product group. Dropping 145 rows (12.1%) was too significant; filling with 1 would understate revenue. Median per product is statistically defensible.
 - **Derived columns** - added `Revenue` (Quantity × Unit_Price), `Month`, `Month_Num`, `Quarter`
 - **Product Reference Table** - built a 15-SKU lookup table used as an XLOOKUP source throughout the analysis
 
+![Cleaned Data](screenshots/cleaneddata.png.png)
+
 ### 2. Exploratory Analysis
 Summary statistics calculated across 5 dimensions: overall KPIs, revenue by region, revenue by product, revenue by month, and revenue by sales rep.
+
+![Exploratory Analysis](screenshots/exploratoryanalysis.png.png)
 
 ### 3. Analysis & Charts
 5 paired sections - each with a summary table on the left and a corresponding chart on the right:
@@ -73,8 +79,13 @@ Summary statistics calculated across 5 dimensions: overall KPIs, revenue by regi
 - Customer Segment by Region (cross-tab + donut)
 - Quarterly Performance (grouped table + column chart)
 
+![Analysis and Charts](screenshots/charts.png.png)
+
 ### 4. Interactive Dashboard
 A standalone interactive dashboard built with AI assistance. Filterable by Region and Quarter, with live-updating KPI cards and 6 charts.
+
+![Dashboard1](screenshots/dashboard1.png.png)
+![Dashboard2](screenshots/dashboard2.png.png)
 
 ---
 
